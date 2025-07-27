@@ -1,0 +1,33 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Animation for buttons */
+.btn-hover {
+  transition: all 0.3s ease;
+}
+
+.btn-hover:hover {
+  transform: translateY(-2px);
+}
+
+/* Card hover effect */
+.card-hover {
+  transition: box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
